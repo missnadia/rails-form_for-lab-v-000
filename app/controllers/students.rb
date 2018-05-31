@@ -11,6 +11,7 @@ class StudentsController < ApplicationController
   end
 
   def show
+    @students = Student.all
   end
 
   def edit
